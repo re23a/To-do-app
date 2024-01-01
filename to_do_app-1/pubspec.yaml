@@ -1,0 +1,33 @@
+name: to_do_app
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+dependencies:
+  badges: ^3.1.2
+  circle_nav_bar: ^2.0.1+1
+  dropdown_button2: ^2.3.9
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.1.0
+  flutter_slidable: ^3.0.1
+  supabase_flutter: ^1.10.25
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - .env
+  fonts:
+    - family: Rubik Mono One
+      fonts:
+        - asset: font\RubikMonoOne-Regular.ttf
+          weight: 400
